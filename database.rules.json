@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "organizations": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "tokens": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "server_url": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    }
+  }
+}
