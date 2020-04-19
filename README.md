@@ -4,10 +4,18 @@ Firebase app (with TypeScript, React & Cloud Functions) for notifications of Git
 
 Public url: https://gitedvinhub.firebaseapp.com/
 
+### Get Started
+
+Create a .dotenv file with the keys and values for your Firebase project. The .env.example file is a template.
+
 ### Firebase commands
 
 ```
 firebase init
+```
+
+```
+npm run deploy # custom command to both build and deploy to Firebase
 ```
 
 ```
