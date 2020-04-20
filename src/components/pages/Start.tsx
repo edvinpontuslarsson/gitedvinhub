@@ -1,6 +1,7 @@
 import React from 'react';
 import { UserState } from '../../hooks/User';
 import Loading from './Loading';
+import SignIn from './SignIn';
 
 const Start = () => {
   const [user, loading] = UserState();
@@ -12,7 +13,7 @@ const Start = () => {
       ) : loading ? (
         <Loading />
       ) : (
-        <p>Sign in page</p>
+        <SignIn />
       )}
     </>
   );
