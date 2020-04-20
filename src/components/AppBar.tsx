@@ -5,9 +5,11 @@ import { Button } from '@material-ui/core';
 const AppBar: FunctionComponent<IAppBarProps> = ({
   user,
 }) => {
-  // TODO separate style
+  // TODO separate style???
 
   // TODO have all displayed text in separate file?
+
+  // TODO maybe not have name in bar, house icon (home), settings icon
 
   return (
     <div
