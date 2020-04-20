@@ -24,11 +24,12 @@ const SignIn = () => {
           <Button
             color="primary"
             variant="contained"
+            startIcon={<GitHubIcon />}
             onClick={() => {
               console.log('Implement GH sign in');
             }}
           >
-            <GitHubIcon /> Sign in with GitHub
+            Sign in with GitHub
           </Button>
         </MuiThemeProvider>
       </div>
