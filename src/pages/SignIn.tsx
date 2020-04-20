@@ -3,7 +3,7 @@ import { Button } from '@material-ui/core';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { MuiThemeProvider } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import greenTheme from '../../themes/greenTheme';
+import greenTheme from '../themes/greenTheme';
 
 const SignIn = () => {
   const divStyle: object = {

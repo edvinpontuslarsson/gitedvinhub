@@ -4,10 +4,13 @@ import {
   Route,
   Switch,
 } from 'react-router-dom';
-import Start from './pages/Start';
+import Start from '../pages/Start';
 
 const AppRouter = () => {
   // TODO look up good practices for protected routes
+
+  // TODO see this info on risk of js injection:
+  // https://stackoverflow.com/questions/36254539/risk-of-javascript-injection-attacks-with-firebase
 
   return (
     <Router>

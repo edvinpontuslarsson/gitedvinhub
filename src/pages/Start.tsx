@@ -1,5 +1,5 @@
 import React from 'react';
-import { UserState } from '../../hooks/User';
+import { UserState } from '../hooks/User';
 import Loading from './Loading';
 import SignIn from './SignIn';
 
