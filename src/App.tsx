@@ -1,17 +1,10 @@
 import React from 'react';
-import './App.css';
 import { initialize } from './helpers/initialize';
+import AppRouter from './components/AppRouter';
 
-function App() {
+const App = () => {
   initialize();
-
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>Hello World!</p>
-      </header>
-    </div>
-  );
-}
+  return <AppRouter />;
+};
 
 export default App;
