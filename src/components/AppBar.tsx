@@ -17,6 +17,12 @@ const AppBar: FunctionComponent<IAppBarProps> = ({
         borderBottom: '1px solid',
       }}
     >
+      <div>
+        <img
+          src={user.photoURL || ''}
+          alt="Profile picture"
+        />
+      </div>
       <Button disableRipple={true} disabled={true}>
         {user.displayName}
       </Button>

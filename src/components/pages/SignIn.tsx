@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from '@material-ui/core';
 import { MuiThemeProvider } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
-import greenTheme from '../../theme/greenTheme';
+import greenTheme from '../../themes/greenTheme';
 
 const SignIn = () => {
   const divStyle: object = {
@@ -27,7 +27,7 @@ const SignIn = () => {
               console.log('Implement GH sign in');
             }}
           >
-            Sign in with GitHub
+            XD Sign in with GitHub
           </Button>
         </MuiThemeProvider>
       </div>
