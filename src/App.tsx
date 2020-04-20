@@ -1,15 +1,10 @@
 import React from 'react';
-import './App.css';
 import { initialize } from './helpers/initialize';
+import AppRouter from './components/AppRouter';
 
 const App = () => {
   initialize();
-
-  return (
-    <div className="App">
-      <p>Hello World!</p>
-    </div>
-  );
+  return <AppRouter />;
 };
 
 export default App;
